@@ -1,5 +1,5 @@
 import React from "react"
-import { ComponentFactory } from "./ComponentFactory";
+import { ComponentFactory } from "./factory/ComponentFactory";
 
 type ComponentType = 'StyledH2' | 'StyledA' | 'StyledDiv';
 

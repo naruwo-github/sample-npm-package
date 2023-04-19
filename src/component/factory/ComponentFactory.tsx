@@ -1,4 +1,7 @@
 import React from 'react';
+import { StyledH2 } from '../product/StyledH2';
+import { StyledA } from '../product/StyledA';
+import { StyledDiv } from '../product/StyledDiv';
 
 type ComponentType = 'StyledH2' | 'StyledA' | 'StyledDiv';
 
@@ -9,11 +12,11 @@ interface ComponentFactoryProps {
 export const ComponentFactory: React.FC<ComponentFactoryProps> = ({ componentId }) => {
 	switch (componentId) {
 		case 'StyledH2':
-			return <h2>h2</h2>;
+			return <StyledH2 />;
 		case 'StyledA':
-			return <a>a</a>;
+			return <StyledA />;
 		case 'StyledDiv':
-			return <div>div</div>;
+			return <StyledDiv />;
 		default:
 			return null;
 	}

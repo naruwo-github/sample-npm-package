@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { response } from './__mock__/response';
 import { setting } from './__mock__/setting';
-import { Container } from './Container';
+import { Container } from './component/Container';
 
 export const dispatch = () => {
 	const responseData = response;
