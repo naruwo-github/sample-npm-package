@@ -1,6 +1,6 @@
 {
   "name": "@chan-naru-way/sample-npm-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sample Npm Package",
   "main": "src/index.tsx",
   "scripts": {
