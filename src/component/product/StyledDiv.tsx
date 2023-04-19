@@ -6,5 +6,5 @@ const Div = styled.div`
 `
 
 export const StyledDiv: React.FC = () => {
-    return <Div>This is StyledDiv</Div>;
+  return <Div>This is StyledDiv</Div>;
 };
