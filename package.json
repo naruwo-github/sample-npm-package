@@ -2,7 +2,7 @@
   "name": "@chan-naru-way/sample-npm-package",
   "version": "1.0.0",
   "description": "Sample Npm Package",
-  "main": "src/index.ts",
+  "main": "src/index.tsx",
   "scripts": {
     "build": "tsc"
   },
