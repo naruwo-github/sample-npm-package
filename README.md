@@ -19,3 +19,17 @@ import { dispatch } from '@chan-naru-way/sample-npm-package/src/index.tsx';
 
 dispatch();
 ```
+
+## Note
+
+If you use this package in a `Vite` project, please add the following configuration to your `vite.config.js` or `vite.config.ts` file.
+
+```typescript
+export default defineConfig({
+	...,
+	// Necessary to resolve dependencies for @chan-naru-way/sample-npm-package
+	optimizeDeps: {
+		include: ['styled-components', 'react-is']
+	}
+});
+```
