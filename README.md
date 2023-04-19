@@ -20,6 +20,10 @@ import { dispatch } from '@chan-naru-way/sample-npm-package/src/index.tsx';
 dispatch();
 ```
 
+## Design
+
+See the internal design of the package [here](./src/README.md)
+
 ## Note
 
 If you use this package in a `Vite` project, please add the following configuration to your `vite.config.js` or `vite.config.ts` file.
