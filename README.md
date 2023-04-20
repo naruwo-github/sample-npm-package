@@ -6,6 +6,23 @@ This package provides a feature to detect HTML tags with specific data attribute
 
 The data attribute is `data-js-target`, and its value should be a JSON formatted string.
 
+```mermaid
+flowchart TB
+    subgraph This package
+    subgraph Render - src/index.tsx
+    dispatch
+    end
+    subgraph UI Components - src/component/*
+	dispatch --> component
+    end
+	end
+    subgraph HTML
+    data-js-target=xxx --> dispatch
+    data-js-target=yyy --> dispatch
+    data-js-target=zzz --> dispatch
+    end
+```
+
 ## How to install
 
 ```bash
