@@ -14,6 +14,14 @@ npm i @chan-naru-way/sample-npm-package
 
 ## How to use
 
+Place specific HTML tags containing the `data-js-target` attribute.
+
+```html
+<div data-js-target="{'id': 'xxx', ...}"></div>
+```
+
+Load a script containing the following in your HTML file.
+
 ```typescript
 import { dispatch } from '@chan-naru-way/sample-npm-package/src/index.tsx';
 
