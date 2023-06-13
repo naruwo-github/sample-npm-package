@@ -9,3 +9,4 @@ export const setting = {
         staticData: 's3'
     }
 };
+//# sourceMappingURL=setting.js.map

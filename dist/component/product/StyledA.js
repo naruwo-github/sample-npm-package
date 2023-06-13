@@ -1,8 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-const A = styled.a `
-  color: green;
-`;
+import { jsx as _jsx } from "react/jsx-runtime";
+import styles from './StyledA.module.css';
 export const StyledA = () => {
-    return React.createElement(A, null, "This is StyledA");
+    return _jsx("a", { className: styles.a, children: "This is StyledA" });
 };
+//# sourceMappingURL=StyledA.js.map

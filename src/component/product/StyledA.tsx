@@ -1,10 +1,6 @@
 import React from 'react';
-import styled from 'styled-components'
-
-const A = styled.a`
-  color: green;
-`
+import styles from './StyledA.module.css'
 
 export const StyledA: React.FC = () => {
-  return <A>This is StyledA</A>;
+  return <a className={styles.a}>This is StyledA</a>;
 };

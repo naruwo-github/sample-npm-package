@@ -1,8 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-const Div = styled.div `
-  color: blue;
-`;
+import { jsx as _jsx } from "react/jsx-runtime";
+import styles from './StyledDiv.module.css';
 export const StyledDiv = () => {
-    return React.createElement(Div, null, "This is StyledDiv");
+    return _jsx("div", { className: styles.d, children: "This is StyledDiv" });
 };
+//# sourceMappingURL=StyledDiv.js.map

@@ -1,10 +1,6 @@
 import React from "react";
-import styled from "styled-components";
-
-const H2 = styled.h2`
-  color: red;
-`
+import styles from './StyledH2.module.css'
 
 export const StyledH2: React.FC = () => {
-  return <H2>This is StyledH2</H2>;
+  return <h2 className={styles.h2}>This is StyledH2</h2>;
 }

@@ -9,3 +9,4 @@ export const response = {
         componentId: 'StyledH2'
     }
 };
+//# sourceMappingURL=response.js.map

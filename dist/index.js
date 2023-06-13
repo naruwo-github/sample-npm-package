@@ -1,3 +1,4 @@
+import { jsx as _jsx } from "react/jsx-runtime";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { response } from './__mock__/response';
@@ -15,7 +16,7 @@ export const dispatch = () => {
             ...matchedDataOnResponse,
             ...matchedDataOnSetting
         };
-        ReactDOM.createRoot(element).render(React.createElement(React.StrictMode, null,
-            React.createElement(Container, { data: data })));
+        ReactDOM.createRoot(element).render(_jsx(React.StrictMode, { children: _jsx(Container, { data: data }) }));
     });
 };
+//# sourceMappingURL=index.js.map

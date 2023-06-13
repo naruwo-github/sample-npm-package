@@ -1,18 +1,7 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import React from "react";
 import { ComponentFactory } from "./factory/ComponentFactory";
 export const Container = ({ data }) => {
-    return (React.createElement(React.Fragment, null,
-        React.createElement("div", { style: { background: 'lightgray' } },
-            React.createElement("h2", null, "Container"),
-            React.createElement("ul", null,
-                React.createElement("li", null,
-                    "id: ",
-                    data.id),
-                React.createElement("li", null,
-                    "componentId: ",
-                    data.componentId),
-                React.createElement("li", null,
-                    "dynamicData: ",
-                    data.dynamicData))),
-        React.createElement(ComponentFactory, { componentId: data.componentId })));
+    return (_jsxs(React.Fragment, { children: [_jsxs("div", { style: { background: 'lightgray' }, children: [_jsx("h2", { children: "Container" }), _jsxs("ul", { children: [_jsxs("li", { children: ["id: ", data.id] }), _jsxs("li", { children: ["componentId: ", data.componentId] }), _jsxs("li", { children: ["dynamicData: ", data.dynamicData] })] })] }), _jsx(ComponentFactory, { componentId: data.componentId })] }));
 };
+//# sourceMappingURL=Container.js.map
