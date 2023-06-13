@@ -49,7 +49,7 @@ dispatch();
 
 See the internal design of the package [here](./src/README.md)
 
-## Note
+## Note(Unnecessary: Now, styled-components isn't be used in this project.)
 
 If you use this package in a `Vite` project, please add the following configuration to your `vite.config.js` or `vite.config.ts` file.
 
